@@ -28,9 +28,9 @@ $image = imagecreatefromstring(base64_decode($imageBase64));
 
 
 $servername = "localhost:3306";
-$username = "protecaodigitala_root";
-$password = "senai119.";
-$dbname = "protecaodigitala_sqlbanco";
+$username = "";
+$password = "";
+$dbname = "";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
